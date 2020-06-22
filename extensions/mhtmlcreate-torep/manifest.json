@@ -1,0 +1,19 @@
+{
+  "name": "MHTMLcreate-toRep",
+  "version": "0.1",
+  "description": "Generate and upolad MHTML file to archive repository",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "box.png",
+    "default_title": "Upload MHTML"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+	"pageCapture"
+  ],
+  "manifest_version": 2
+}
